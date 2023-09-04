@@ -1,0 +1,98 @@
+#Algoritmo numero 1
+#Haz un programa que lea 2 números e imprima True si el primero es 20 veces el valor del segundo.
+#Si no, imprime False.
+print("Comienza el algoritmo 1")
+A=int(input())
+B=int(input())
+print(A==(20*B))
+
+#Algoritmo numero 2
+#Haz un programa que lea tres números e imprima el producto de los tres dividido entre la suma
+#de los tres
+print("Comienza el algoritmo 2")
+a=int(input())
+b=int(input())
+c=int(input())
+print((a*b*c)/(a+b+c))
+
+#Algoritmo numero 3
+#Haz un programa que lea 3 números e imprima True si están en orden ascendiente. Si no, imprime
+#False
+print("Comienza el algoritmo 3")
+var1=int(input())
+var2=int(input())
+var3=int(input())
+print(var1<var2 and var2<var3)
+
+#Algoritmo numero 4
+#Haz un programa lea 4 números e imprima True si todos son negativos. Si alguno es positivo,
+#imprime False
+print("Comienza el algoritmo 4")
+var4=int(input())
+var5=int(input())
+var6=int(input())
+var7=int(input())
+print(var4<0 and var5<0 and var6<0 and var7<0)
+
+#Algoritmo numero 5
+#Haz un programa que lea un número e imprima True si es un número par e imprima False si es
+#un número impar
+print("Comienza el algoritmo 5")
+var8=int(input())
+print((var8%2)==0)
+
+#Algoritmo numero 6
+#Haz un programa que lea 3 números e imprima True si el primero es menor que el segundo y si
+#el segundo no es igual al tercero. Si no, imprime false
+print("Comienza el algoritmo 6")
+var9=int(input())
+var10=int(input())
+var11=int(input())
+print(var9<var10 and var10!=var11)
+
+#Algoritmo numero 7
+#Haz un programa que lea 3 números e imprima True si el primero y el segundo son iguales o si el
+#primero es al menos 3 unidades más grande que el segundo. Si no, imprime False.
+print("Comienza el algoritmo 7")
+var12=int(input())
+var13=int(input())
+var14=int(input())
+print(var12==var13 or (var13+3)>var12)
+
+#Algoritmo numero 8
+#Haz un programa que lea 8 números e imprima el promedio
+print("Comienza el algoritmo 8")
+var15=int(input())
+var16=int(input())
+var17=int(input())
+var18=int(input())
+var19=int(input())
+var20=int(input())
+var21=int(input())
+var22=int(input())
+print((var15+var16+var17+var18+var19+var20+var21+var22)/8)
+
+#Algoritmo numero 9
+#Haz un programa que lea 4 strings y los concatene.
+print("Comienza el algoritmo 9")
+var23=str(input())
+var24=str(input())
+var25=str(input())
+var26=str(input())
+print(var23+var24+var25+var26)
+
+#Algoritmo numero 10
+#Un caluroso día de verano, Memo y su amigo Ángel, decidieron comprar una sandía. Eligieron
+#la más grande y más madura para su opinión. Pesaron la sandía y corrieron a su casa
+#sedientos para poder comer la rica sandía. Pero se encontraron con un problema.
+#Memo y Ángel son muy fanáticos de los números pares, es por esto que quieren partir la
+#sandía en en dos partes tal que cada parte pese una cantidad par de kilos, no es obligatorio
+#que pesen lo mismo. Crea un programa que reciba de entrada un número entero, que equivale
+#al peso de la sandía, y que imprima True si se puede separar este valor en dos partes pares
+#o False en caso contrario. Prueba el programa con enteros positivos.
+print("Comienza el algoritmo 10")
+var27=int(input())
+print((var27%2)==0)
+#Si el numero introducido es impar, seria imposible dividirlo en dos partes
+#pares no importa si pesan cantidades diferentes. para poder dividir un numero
+#en dos partes pares, el numero inicial necesita ser par.
